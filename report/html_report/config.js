@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card.png",
-        "test": "..\\bitmaps_test\\20240824-132630\\Card_with_data-qa_card.png",
+        "test": "..\\bitmaps_test\\20240824-155139\\Card_with_data-qa_card.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card.png",
         "label": "Card with data-qa_card",
@@ -15,14 +15,14 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -2
+            "height": 0
           },
-          "rawMisMatchPercentage": 0.25,
-          "misMatchPercentage": "0.25",
-          "analysisTime": 15
+          "rawMisMatchPercentage": 0.5514705882352942,
+          "misMatchPercentage": "0.55",
+          "analysisTime": 18
         }
       },
       "status": "pass"
@@ -30,7 +30,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover.png",
-        "test": "..\\bitmaps_test\\20240824-132630\\Link_with_data-qa_hover.png",
+        "test": "..\\bitmaps_test\\20240824-155139\\Link_with_data-qa_hover.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Link_with_data-qa_hover.png",
         "label": "Link with data-qa_hover",
@@ -41,14 +41,14 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 2
+            "height": 0
           },
-          "rawMisMatchPercentage": 0.2352941176470588,
-          "misMatchPercentage": "0.24",
-          "analysisTime": 16
+          "rawMisMatchPercentage": 0.5367647058823529,
+          "misMatchPercentage": "0.54",
+          "analysisTime": 21
         }
       },
       "status": "pass"
